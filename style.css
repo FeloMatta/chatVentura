@@ -11,10 +11,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* UTILITIES */
+.container{
+    margin: 0 auto;
+    max-width: 512px;
+}
+
 /* REGOLE GENERALI */
 html{
     font-family: 'space Grotesk', sans-serif;
-    text-align: center;
     background-color: rgb(1, 21, 50);
 }
 
@@ -22,32 +28,66 @@ html{
 header{
     background-color: rgb(76, 2, 53);
     color: rgb(233, 244, 91);
+    text-align: center;
+    padding: 32px;
 }
 
 header > h1{
-    padding: 20px;
+    font-size: 32px;
 }
 
 header > p{
-    padding: 0  20px 20px 20px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
-/* MAIN */
-.container{
-    max-width: 400px;
-    padding: 24px 12px;
-}
-
-.characters{
+/* GENRES */
+.genres{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
 }
 
-.character{
-    height: 80px;
-    width: 80px;
-    border: 2px solid rgba(255, 255, 255, 0.377);
+.genre{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(108, 146, 186);
     font-size: 40px;
-    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.genre:hover{
+    background-color: rgb(108, 146, 186);
+}
+
+/* GAME STARTED */
+.game-started h1{
+    font-size: 16px;
+}
+
+.game-started header{
+    padding: 16px;
+}
+
+.game-started header p,
+.game-started .genres{
+    display: none;
+}
+
+/* LOADER */
+.loader{
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hidden{
+    display: none;
 }

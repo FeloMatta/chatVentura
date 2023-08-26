@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="game-started">
     <header>
         <h1>
             ChatVenture
@@ -20,16 +20,19 @@
         </p>
     </header>
 
-    <main>
-        <div class="container">
-            <div class="characters">
-                <div class="character">👻</div>
-                <div class="character">🕵🏻</div>
-                <div class="character">🦸‍♂️</div>
-            </div>
-        </div>
+    <main class="container">
+        <div class="genres">
+            <div class="genre" data-genre="horror">👻</div>
+            <div class="genre" data-genre="film di spionaggio">🕵🏻</div>
+            <div class="genre" data-genre="supereroi marvel">🦸‍♂️</div>
+        </div>  
     </main>
 
+    <!-- loader -->
+    <div class="loader hidden">
+        <img src="images/loader.gif" alt="loader">
+    </div>
+    <!-- fine loader -->
     <script src="main.js"></script>
 </body>
 </html>
