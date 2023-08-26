@@ -25,14 +25,32 @@
             <div class="genre" data-genre="horror">👻</div>
             <div class="genre" data-genre="film di spionaggio">🕵🏻</div>
             <div class="genre" data-genre="supereroi marvel">🦸‍♂️</div>
-        </div>  
+        </div> 
+
+        <!-- loader -->
+        <div class="loader hidden">
+            <img src="images/loader.gif" alt="loader">
+        </div>
+        <!-- fine loader --> 
+
+        <!-- placeholder -->
+            <div id="placeholder"></div>
+        <!-- fine placeholder -->
+
+        <!-- gameover -->
+        <template id="gameover-template">
+            <div class="gameover">
+                <div class="gameover-icon">☠</div>
+                <h2>Sei Morto</h2>
+                <p class="gameover-message"></p>
+                <button>Rigioca</button>
+            </div>
+        </template>
+        <!-- fine gameover -->
+
+        
     </main>
 
-    <!-- loader -->
-    <div class="loader hidden">
-        <img src="images/loader.gif" alt="loader">
-    </div>
-    <!-- fine loader -->
     <script src="main.js"></script>
 </body>
 </html>

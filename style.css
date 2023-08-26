@@ -22,6 +22,7 @@
 html{
     font-family: 'space Grotesk', sans-serif;
     background-color: rgb(1, 21, 50);
+    color: white;
 }
 
 /* HEADER */
@@ -90,4 +91,30 @@ header > p{
 
 .hidden{
     display: none;
+}
+
+/* GAMEOVER */
+.gameover{
+    text-align: center;
+    padding: 32px;
+}
+
+.gameover-icon{
+    font-size: 60px;
+}
+
+button{
+    margin: 10px 0;
+    padding: 16px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'space Grotesk', sans-serif;
+    border: 2px solid rgb(108, 146, 186);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(108, 146, 186);
 }
