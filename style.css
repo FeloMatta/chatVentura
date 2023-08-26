@@ -118,3 +118,22 @@ button{
 button:hover{
     background-color: rgb(108, 146, 186);
 }
+
+/* STAGE */
+.stage-picture{
+    min-height: 300px;
+    background-image: url('images/loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stage-picture img{
+    max-width: 100%;
+}
+
+.stage-content{
+    padding: 16px;
+    position: relative;
+    top: -50px;
+    background-image: linear-gradient(to bottom, rgba(1, 21, 50, 0.5) 40%,rgb(1, 21, 50) 100%);
+}
