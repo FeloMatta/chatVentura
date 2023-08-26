@@ -14,4 +14,40 @@
 /* REGOLE GENERALI */
 html{
     font-family: 'space Grotesk', sans-serif;
+    text-align: center;
+    background-color: rgb(1, 21, 50);
+}
+
+/* HEADER */
+header{
+    background-color: rgb(76, 2, 53);
+    color: rgb(233, 244, 91);
+}
+
+header > h1{
+    padding: 20px;
+}
+
+header > p{
+    padding: 0  20px 20px 20px;
+}
+
+/* MAIN */
+.container{
+    max-width: 400px;
+    padding: 24px 12px;
+}
+
+.characters{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.character{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgba(255, 255, 255, 0.377);
+    font-size: 40px;
+    padding: 6px;
 }
