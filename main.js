@@ -11,3 +11,9 @@ const genreButtons = document.querySelectorAll('.genre');
 const placeholder = document.querySelector('#placeholder');
 const stageTemplate = document.querySelector('#stage-template');
 const gameoverTemplate = document.querySelector('#gameover-template');
+
+// Preparo una variabile per tenere tutta la chat
+const completeChat = [];
+
+// Preparo una variabile per il genere selezionato
+let selectedGenre;
