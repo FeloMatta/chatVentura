@@ -1,0 +1,17 @@
+/* COLOR PLETTE 
+    darkblue: rgb(1, 21, 50)
+    purple: rgb(76, 2, 53)
+    yellow: rgb(233, 244, 91)
+    lightblue: rgb(108, 146, 186)
+*/
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* REGOLE GENERALI */
+html{
+    font-family: 'space Grotesk', sans-serif;
+}
